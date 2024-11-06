@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'AudioTagLib'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of AudioTagLib.'
+  s.summary          = 'AudioTagLib is a wrapper for the TagLib Audio Meta-Data Library.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -47,7 +47,9 @@ Pod::Spec.new do |s|
   
   #s.source_files = 'AudioTagLib/Classes/**/*'
   
+#  s.module_map = 'AudioTagLib/AudioTagLib.modulemap'
   s.module_map = 'AudioTagLib/Framework/AudioTagLib.modulemap'
+
   s.public_header_files = ['AudioTagLib/Framework/AudioTagLib-umbrella.h', 'AudioTagLib/Classes/iOSWrapper/*.h']
   s.private_header_files = 'AudioTagLib/Classes/taglib/**/*.h'
   s.source_files = ['AudioTagLib/Framework/AudioTagLib-umbrella.h', 'AudioTagLib/Classes/**/**/*.{h,cpp,mm}']

@@ -234,6 +234,8 @@
 		B9D077592CDB5F1C00045CF2 /* tagutils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9D0767C2CDB5F1B00045CF2 /* tagutils.cpp */; };
 		B9D0775A2CDB5F1C00045CF2 /* tagutils.h in Headers */ = {isa = PBXBuildFile; fileRef = B9D0767D2CDB5F1B00045CF2 /* tagutils.h */; };
 		B9D0775D2CDB5F2D00045CF2 /* AudioTagLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B9D0775B2CDB5F2D00045CF2 /* AudioTagLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9D0775F2CDB778300045CF2 /* AudioTagLib-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4B8C3203C163F8634585FD704D312C85 /* AudioTagLib-Info.plist */; };
+		B9D077602CDB778700045CF2 /* AudioTagLib-prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = D6AB7CCE18E479F61E67A712E1A7D689 /* AudioTagLib-prefix.pch */; };
 		EE48C72105127F0FF34F3CAB728FC06B /* Pods-AudioTagLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F5EFDDD0B229DD2B8D5CEE9573473B21 /* Pods-AudioTagLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F8C34A17172AB10985B38DD0089AEE6A /* Pods-AudioTagLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E6E42A214F48F48456D6AD5C1A25BDA /* Pods-AudioTagLib_Example-dummy.m */; };
 /* End PBXBuildFile section */
@@ -501,13 +503,14 @@
 		B9D0767C2CDB5F1B00045CF2 /* tagutils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tagutils.cpp; sourceTree = "<group>"; };
 		B9D0767D2CDB5F1B00045CF2 /* tagutils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tagutils.h; sourceTree = "<group>"; };
 		B9D0775B2CDB5F2D00045CF2 /* AudioTagLib-umbrella.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AudioTagLib-umbrella.h"; sourceTree = "<group>"; };
+		B9D077622CDB79D100045CF2 /* AudioTagLib.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = AudioTagLib.modulemap; sourceTree = "<group>"; };
 		BCB135C95FA5D3CE350AA42712BBF88D /* AudioTagLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AudioTagLib-dummy.m"; sourceTree = "<group>"; };
 		BD278100227DE21BF2C0AC1C9CEB4969 /* Pods-AudioTagLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AudioTagLib_Example.modulemap"; sourceTree = "<group>"; };
 		C2A9650EB6784B3475E5357A79104995 /* Pods-AudioTagLib_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AudioTagLib_Tests"; path = Pods_AudioTagLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6AB7CCE18E479F61E67A712E1A7D689 /* AudioTagLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AudioTagLib-prefix.pch"; sourceTree = "<group>"; };
 		F039F47969AE5F9BE51A673ACD024767 /* AudioTagLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AudioTagLib.release.xcconfig; sourceTree = "<group>"; };
 		F5EFDDD0B229DD2B8D5CEE9573473B21 /* Pods-AudioTagLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AudioTagLib_Tests-umbrella.h"; sourceTree = "<group>"; };
-		FD3343A33DC62E897CCEB938B357C91E /* AudioTagLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AudioTagLib.modulemap; sourceTree = "<group>"; };
+		FD3343A33DC62E897CCEB938B357C91E /* AudioTagLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AudioTagLib.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1031,6 +1034,7 @@
 			isa = PBXGroup;
 			children = (
 				B9D0775B2CDB5F2D00045CF2 /* AudioTagLib-umbrella.h */,
+				B9D077622CDB79D100045CF2 /* AudioTagLib.modulemap */,
 			);
 			name = Framework;
 			path = AudioTagLib/Framework;
@@ -1180,6 +1184,7 @@
 				B9D0773B2CDB5F1C00045CF2 /* tstring.h in Headers */,
 				B9D076922CDB5F1C00045CF2 /* asfproperties.h in Headers */,
 				B9D076D42CDB5F1C00045CF2 /* relativevolumeframe.h in Headers */,
+				B9D077602CDB778700045CF2 /* AudioTagLib-prefix.pch in Headers */,
 				B9D077392CDB5F1C00045CF2 /* trefcounter.h in Headers */,
 				B9D0769B2CDB5F1C00045CF2 /* flacpicture.h in Headers */,
 				B9D076902CDB5F1C00045CF2 /* asfpicture.h in Headers */,
@@ -1358,6 +1363,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9D0775F2CDB778300045CF2 /* AudioTagLib-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
