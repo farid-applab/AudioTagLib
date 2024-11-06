@@ -1,0 +1,6 @@
+framework module AudioTagLib {
+  umbrella header "AudioTagLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -18,7 +18,17 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  **AudioTagLib Audio Meta-Data Library**
+
+#  *http://TagLibIOS.org/
+  *http://taglib.org/
+
+  AudioTagLib is a library for reading and editing the meta-data of several
+  popular audio formats. Currently it supports both ID3v1 and [ID3v2](http://www.id3.org)
+  for MP3 files, [Ogg Vorbis](http://vorbis.com/) comments and ID3 tags and Vorbis comments
+      in [FLAC](https://xiph.org/flac/), MPC, Speex, WavPack, TrueAudio, WAV, AIFF, MP4 and ASF
+      files.
+                       
                        DESC
 
   s.homepage         = 'https://github.com/farid-applab/AudioTagLib'
@@ -28,9 +38,24 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/farid-applab/AudioTagLib.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
-
-  s.source_files = 'AudioTagLib/Classes/**/*'
+  s.ios.deployment_target = '12.0'
+  
+    s.swift_version = '5.0'
+    s.platforms = {
+        "ios": "12.0"
+    }
+  
+  #s.source_files = 'AudioTagLib/Classes/**/*'
+  
+  s.module_map = 'AudioTagLib/Framework/AudioTagLib.modulemap'
+  s.public_header_files = ['AudioTagLib/Framework/AudioTagLib-umbrella.h', 'AudioTagLib/Classes/iOSWrapper/*.h']
+  s.private_header_files = 'AudioTagLib/Classes/taglib/**/*.h'
+  s.source_files = ['AudioTagLib/Framework/AudioTagLib-umbrella.h', 'AudioTagLib/Classes/**/**/*.{h,cpp,mm}']
+  s.library = 'c++'
+  s.xcconfig = {
+      'CLANG_CXX_LANGUAGE_STANDARD' => 'gnu++14',
+      'CLANG_CXX_LIBRARY' => 'libc++'
+  }
   
   # s.resource_bundles = {
   #   'AudioTagLib' => ['AudioTagLib/Assets/*.png']

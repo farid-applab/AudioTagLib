@@ -15,6 +15,24 @@
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		69E63B8E5899A381A2F47BD4 /* Pods_AudioTagLib_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF6BB566A72DCF317E896560 /* Pods_AudioTagLib_Example.framework */; };
 		9B6B01D781A6F51EA92BA26E /* Pods_AudioTagLib_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96FD85E803C20844FD7C1D3C /* Pods_AudioTagLib_Tests.framework */; };
+		B9D0738B2CDB589B00045CF2 /* 05. Ashq Bhi flac.flac in Resources */ = {isa = PBXBuildFile; fileRef = B9D073702CDB589B00045CF2 /* 05. Ashq Bhi flac.flac */; };
+		B9D0738D2CDB589B00045CF2 /* audio.flac in Resources */ = {isa = PBXBuildFile; fileRef = B9D073722CDB589B00045CF2 /* audio.flac */; };
+		B9D0738E2CDB589B00045CF2 /* audio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B9D073732CDB589B00045CF2 /* audio.mp3 */; };
+		B9D0738F2CDB589B00045CF2 /* audioFlac.flac in Resources */ = {isa = PBXBuildFile; fileRef = B9D073742CDB589B00045CF2 /* audioFlac.flac */; };
+		B9D073902CDB589B00045CF2 /* Cheap Thrills (feat. Sean Paul) m4a.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B9D073752CDB589B00045CF2 /* Cheap Thrills (feat. Sean Paul) m4a.m4a */; };
+		B9D073912CDB589B00045CF2 /* coverArt.png in Resources */ = {isa = PBXBuildFile; fileRef = B9D073762CDB589B00045CF2 /* coverArt.png */; };
+		B9D073922CDB589B00045CF2 /* coverArt2.png in Resources */ = {isa = PBXBuildFile; fileRef = B9D073772CDB589B00045CF2 /* coverArt2.png */; };
+		B9D073932CDB589B00045CF2 /* Demo song 1 wav.wav in Resources */ = {isa = PBXBuildFile; fileRef = B9D073782CDB589B00045CF2 /* Demo song 1 wav.wav */; };
+		B9D073942CDB589B00045CF2 /* Demo Song 2 flac.flac in Resources */ = {isa = PBXBuildFile; fileRef = B9D073792CDB589B00045CF2 /* Demo Song 2 flac.flac */; };
+		B9D073952CDB589B00045CF2 /* Demo Song 3 m4a.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B9D0737A2CDB589B00045CF2 /* Demo Song 3 m4a.m4a */; };
+		B9D073962CDB589B00045CF2 /* Demo Song 5 caf.caf in Resources */ = {isa = PBXBuildFile; fileRef = B9D0737B2CDB589B00045CF2 /* Demo Song 5 caf.caf */; };
+		B9D073972CDB589B00045CF2 /* Demo Song 6 aac.aac in Resources */ = {isa = PBXBuildFile; fileRef = B9D0737C2CDB589B00045CF2 /* Demo Song 6 aac.aac */; };
+		B9D073982CDB589B00045CF2 /* ek-pyar-ka flac.flac in Resources */ = {isa = PBXBuildFile; fileRef = B9D0737D2CDB589B00045CF2 /* ek-pyar-ka flac.flac */; };
+		B9D073992CDB589B00045CF2 /* flac2.flac in Resources */ = {isa = PBXBuildFile; fileRef = B9D0737E2CDB589B00045CF2 /* flac2.flac */; };
+		B9D0739D2CDB589B00045CF2 /* Let Me Down Slowly mp3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B9D073832CDB589B00045CF2 /* Let Me Down Slowly mp3.mp3 */; };
+		B9D0739E2CDB589B00045CF2 /* lose-my-mind-20931 mp3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B9D073842CDB589B00045CF2 /* lose-my-mind-20931 mp3.mp3 */; };
+		B9D073A02CDB589B00045CF2 /* Otilia mp3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B9D073872CDB589B00045CF2 /* Otilia mp3.mp3 */; };
+		B9D073A12CDB589B00045CF2 /* sample1 flac.flac in Resources */ = {isa = PBXBuildFile; fileRef = B9D073882CDB589B00045CF2 /* sample1 flac.flac */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +47,7 @@
 
 /* Begin PBXFileReference section */
 		042F615313332127CC487AE4 /* Pods-AudioTagLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudioTagLib_Tests.release.xcconfig"; path = "Target Support Files/Pods-AudioTagLib_Tests/Pods-AudioTagLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		2B89C4DAD44E647ECC25CF8F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2B89C4DAD44E647ECC25CF8F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		39E4A35ECA299A901413EB5D /* Pods-AudioTagLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudioTagLib_Example.debug.xcconfig"; path = "Target Support Files/Pods-AudioTagLib_Example/Pods-AudioTagLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* AudioTagLib_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioTagLib_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -41,12 +59,30 @@
 		607FACE51AFB9204008FA782 /* AudioTagLib_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioTagLib_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		80359ADF8254D232AF7E9BBE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		80359ADF8254D232AF7E9BBE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		96FD85E803C20844FD7C1D3C /* Pods_AudioTagLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AudioTagLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9D073702CDB589B00045CF2 /* 05. Ashq Bhi flac.flac */ = {isa = PBXFileReference; lastKnownFileType = file; path = "05. Ashq Bhi flac.flac"; sourceTree = "<group>"; };
+		B9D073722CDB589B00045CF2 /* audio.flac */ = {isa = PBXFileReference; lastKnownFileType = file; path = audio.flac; sourceTree = "<group>"; };
+		B9D073732CDB589B00045CF2 /* audio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = audio.mp3; sourceTree = "<group>"; };
+		B9D073742CDB589B00045CF2 /* audioFlac.flac */ = {isa = PBXFileReference; lastKnownFileType = file; path = audioFlac.flac; sourceTree = "<group>"; };
+		B9D073752CDB589B00045CF2 /* Cheap Thrills (feat. Sean Paul) m4a.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cheap Thrills (feat. Sean Paul) m4a.m4a"; sourceTree = "<group>"; };
+		B9D073762CDB589B00045CF2 /* coverArt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coverArt.png; sourceTree = "<group>"; };
+		B9D073772CDB589B00045CF2 /* coverArt2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coverArt2.png; sourceTree = "<group>"; };
+		B9D073782CDB589B00045CF2 /* Demo song 1 wav.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Demo song 1 wav.wav"; sourceTree = "<group>"; };
+		B9D073792CDB589B00045CF2 /* Demo Song 2 flac.flac */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Demo Song 2 flac.flac"; sourceTree = "<group>"; };
+		B9D0737A2CDB589B00045CF2 /* Demo Song 3 m4a.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Demo Song 3 m4a.m4a"; sourceTree = "<group>"; };
+		B9D0737B2CDB589B00045CF2 /* Demo Song 5 caf.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Demo Song 5 caf.caf"; sourceTree = "<group>"; };
+		B9D0737C2CDB589B00045CF2 /* Demo Song 6 aac.aac */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Demo Song 6 aac.aac"; sourceTree = "<group>"; };
+		B9D0737D2CDB589B00045CF2 /* ek-pyar-ka flac.flac */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ek-pyar-ka flac.flac"; sourceTree = "<group>"; };
+		B9D0737E2CDB589B00045CF2 /* flac2.flac */ = {isa = PBXFileReference; lastKnownFileType = file; path = flac2.flac; sourceTree = "<group>"; };
+		B9D073832CDB589B00045CF2 /* Let Me Down Slowly mp3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Let Me Down Slowly mp3.mp3"; sourceTree = "<group>"; };
+		B9D073842CDB589B00045CF2 /* lose-my-mind-20931 mp3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "lose-my-mind-20931 mp3.mp3"; sourceTree = "<group>"; };
+		B9D073872CDB589B00045CF2 /* Otilia mp3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Otilia mp3.mp3"; sourceTree = "<group>"; };
+		B9D073882CDB589B00045CF2 /* sample1 flac.flac */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sample1 flac.flac"; sourceTree = "<group>"; };
 		C682E593C7F4B265B51131B7 /* Pods-AudioTagLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudioTagLib_Example.release.xcconfig"; path = "Target Support Files/Pods-AudioTagLib_Example/Pods-AudioTagLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E02CCEC68597E211924B49F6 /* Pods-AudioTagLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudioTagLib_Tests.debug.xcconfig"; path = "Target Support Files/Pods-AudioTagLib_Tests/Pods-AudioTagLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		EF6BB566A72DCF317E896560 /* Pods_AudioTagLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AudioTagLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F36B7AF86D6C5F5B0E5381F4 /* AudioTagLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = AudioTagLib.podspec; path = ../AudioTagLib.podspec; sourceTree = "<group>"; };
+		F36B7AF86D6C5F5B0E5381F4 /* AudioTagLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AudioTagLib.podspec; path = ../AudioTagLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +138,7 @@
 		607FACD21AFB9204008FA782 /* Example for AudioTagLib */ = {
 			isa = PBXGroup;
 			children = (
+				B9D0738A2CDB589B00045CF2 /* tracks */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -156,8 +193,32 @@
 				E02CCEC68597E211924B49F6 /* Pods-AudioTagLib_Tests.debug.xcconfig */,
 				042F615313332127CC487AE4 /* Pods-AudioTagLib_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		B9D0738A2CDB589B00045CF2 /* tracks */ = {
+			isa = PBXGroup;
+			children = (
+				B9D073702CDB589B00045CF2 /* 05. Ashq Bhi flac.flac */,
+				B9D073722CDB589B00045CF2 /* audio.flac */,
+				B9D073732CDB589B00045CF2 /* audio.mp3 */,
+				B9D073742CDB589B00045CF2 /* audioFlac.flac */,
+				B9D073752CDB589B00045CF2 /* Cheap Thrills (feat. Sean Paul) m4a.m4a */,
+				B9D073762CDB589B00045CF2 /* coverArt.png */,
+				B9D073772CDB589B00045CF2 /* coverArt2.png */,
+				B9D073782CDB589B00045CF2 /* Demo song 1 wav.wav */,
+				B9D073792CDB589B00045CF2 /* Demo Song 2 flac.flac */,
+				B9D0737A2CDB589B00045CF2 /* Demo Song 3 m4a.m4a */,
+				B9D0737B2CDB589B00045CF2 /* Demo Song 5 caf.caf */,
+				B9D0737C2CDB589B00045CF2 /* Demo Song 6 aac.aac */,
+				B9D0737D2CDB589B00045CF2 /* ek-pyar-ka flac.flac */,
+				B9D0737E2CDB589B00045CF2 /* flac2.flac */,
+				B9D073832CDB589B00045CF2 /* Let Me Down Slowly mp3.mp3 */,
+				B9D073842CDB589B00045CF2 /* lose-my-mind-20931 mp3.mp3 */,
+				B9D073872CDB589B00045CF2 /* Otilia mp3.mp3 */,
+				B9D073882CDB589B00045CF2 /* sample1 flac.flac */,
+			);
+			path = tracks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,10 +274,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 6785C9K8Q8;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = TMMB8J5P9G;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -227,6 +290,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -246,9 +310,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9D073982CDB589B00045CF2 /* ek-pyar-ka flac.flac in Resources */,
+				B9D073A12CDB589B00045CF2 /* sample1 flac.flac in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				B9D073952CDB589B00045CF2 /* Demo Song 3 m4a.m4a in Resources */,
+				B9D0738E2CDB589B00045CF2 /* audio.mp3 in Resources */,
+				B9D073922CDB589B00045CF2 /* coverArt2.png in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				B9D0739D2CDB589B00045CF2 /* Let Me Down Slowly mp3.mp3 in Resources */,
+				B9D073932CDB589B00045CF2 /* Demo song 1 wav.wav in Resources */,
+				B9D0738F2CDB589B00045CF2 /* audioFlac.flac in Resources */,
+				B9D073992CDB589B00045CF2 /* flac2.flac in Resources */,
+				B9D0739E2CDB589B00045CF2 /* lose-my-mind-20931 mp3.mp3 in Resources */,
+				B9D073A02CDB589B00045CF2 /* Otilia mp3.mp3 in Resources */,
+				B9D073912CDB589B00045CF2 /* coverArt.png in Resources */,
+				B9D073962CDB589B00045CF2 /* Demo Song 5 caf.caf in Resources */,
+				B9D073902CDB589B00045CF2 /* Cheap Thrills (feat. Sean Paul) m4a.m4a in Resources */,
+				B9D0738D2CDB589B00045CF2 /* audio.flac in Resources */,
+				B9D073942CDB589B00045CF2 /* Demo Song 2 flac.flac in Resources */,
+				B9D073972CDB589B00045CF2 /* Demo Song 6 aac.aac in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				B9D0738B2CDB589B00045CF2 /* 05. Ashq Bhi flac.flac in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,7 +560,9 @@
 			baseConfigurationReference = 39E4A35ECA299A901413EB5D /* Pods-AudioTagLib_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6785C9K8Q8;
 				INFOPLIST_FILE = AudioTagLib/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -493,7 +577,9 @@
 			baseConfigurationReference = C682E593C7F4B265B51131B7 /* Pods-AudioTagLib_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6785C9K8Q8;
 				INFOPLIST_FILE = AudioTagLib/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -507,6 +593,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E02CCEC68597E211924B49F6 /* Pods-AudioTagLib_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = TMMB8J5P9G;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -516,6 +603,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -529,11 +617,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 042F615313332127CC487AE4 /* Pods-AudioTagLib_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = TMMB8J5P9G;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";

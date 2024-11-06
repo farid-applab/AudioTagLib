@@ -1,5 +1,4 @@
 import XCTest
-import AudioTagLib
 
 class Tests: XCTestCase {
     

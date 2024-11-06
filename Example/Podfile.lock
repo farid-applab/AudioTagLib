@@ -1,0 +1,16 @@
+PODS:
+  - AudioTagLib (0.1.0)
+
+DEPENDENCIES:
+  - AudioTagLib (from `../`)
+
+EXTERNAL SOURCES:
+  AudioTagLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AudioTagLib: 692020138077af007353fbbacabdad6c813b4386
+
+PODFILE CHECKSUM: d1b025bcecc59024a7789e039b57107c30fdc40f
+
+COCOAPODS: 1.15.2

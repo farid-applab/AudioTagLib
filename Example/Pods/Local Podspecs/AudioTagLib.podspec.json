@@ -1,0 +1,22 @@
+{
+  "name": "AudioTagLib",
+  "version": "0.1.0",
+  "summary": "A short description of AudioTagLib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/farid-applab/AudioTagLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "farid-applab": "farid@applabltd.co"
+  },
+  "source": {
+    "git": "https://github.com/farid-applab/AudioTagLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "AudioTagLib/Classes/**/*"
+}
