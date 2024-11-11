@@ -31,7 +31,9 @@
 + (void)printFileTags:(NSString *)path;
 
 + (nullable NSData *)getArtwork:(NSString *)path;
-    
++ (bool)setArtwork:(NSString *)path
+           artwork: (NSData *)artwork;
+  
 
 @end
 
